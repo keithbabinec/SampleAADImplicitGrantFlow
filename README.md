@@ -23,7 +23,9 @@ A code sample of an ASP.NET Core Web API with a React web client, authenticated 
 4. Run 'npm start' to start the local debug web instance. 
 
 ## What happens when it runs?
-If you logged in with an authorized user, you should see a result like this (where the token/user is printed to the screen for illustration purposes).
+When you start the web client it should immediately redirect to your AAD tenant login page. Supply the AAD user credentials here. Then it should redirect back to the web client (if configured correctly), and then call the web API using the bearer token received in the callback from AAD.
+
+If you successfully logged in with an authorized user, you should see a result like this (where the token/user is printed to the screen for illustration purposes).
 ![Successful Auth Result](images/test-run.PNG?raw=true "Screenshot: Successful Auth Result")
 
 If you logged in with an unauthorized user, you should see a 403 (forbidden) result return from the server. 
