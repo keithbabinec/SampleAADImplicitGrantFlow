@@ -2,8 +2,8 @@
 A code sample of an ASP.NET Core Web API with a React web client, authenticated with the Azure Active Directory implicit grant flow and RBAC permissions authorization.
 
 # Azure Prerequisites
-1. You have an already configure Azure subscription.
-2. An App Registration has been created in Azure Active Directory.
+1. You have an Azure subscription.
+2. You have an App Registration that has been created in Azure Active Directory.
 3. You have modified the App Manifest in the AAD app to use the implicit grant auth flow, and added custom roles 'AdminUser' and 'StandardUser'.
 4. You have modified the associated Enterprise Application to assign users or groups to the custom roles.
 
