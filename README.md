@@ -21,3 +21,15 @@ A code sample of an ASP.NET Core Web API with a React web client, authenticated 
 2. Run 'npm install' to install the packages.
 3. Open the [Index.js](https://github.com/keithbabinec/SampleAADImplicitGrantFlow/blob/master/TestAuthReactWebClient/src/index.js) file and update any environment specific values.
 4. Run 'npm start' to start the local debug web instance. 
+
+## What happens when it runs?
+* If you logged in with an authorized user, you should see a result like this (where the token/user is printed to the screen for illustration purposes).
+![Successful Auth Result](images/test-run.PNG?raw=true "Screenshot: Successful Auth Result")
+* If you logged in with an unauthorized user, you should see a 403 (forbidden) result return from the server. 
+![Unauthorized Result](images/403-result.PNG?raw=true "Screenshot: Unauthorized Result")
+
+# Additional reference links
+* https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-implicit-grant-flow
+* https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps
+* https://github.com/AzureAD/azure-activedirectory-library-for-js
+* https://jwt.ms/
