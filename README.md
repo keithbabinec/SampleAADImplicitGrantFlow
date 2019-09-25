@@ -1,5 +1,5 @@
 # SampleAADImplicitGrantFlow
-A code sample of an ASP.NET Core Web API with a React web client, authenticated with the Azure Active Directory implicit grant flow.
+A code sample of an ASP.NET Core Web API with a React web client, authenticated with the Azure Active Directory implicit grant flow and RBAC permissions authorization.
 
 # Azure Prerequisites
 1. You have an already configure Azure subscription.
