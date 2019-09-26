@@ -1,6 +1,9 @@
 # SampleAADImplicitGrantFlow
 A code sample of an ASP.NET Core Web API with a React web client, authenticated with the Azure Active Directory implicit grant flow and RBAC permissions authorization.
 
+## ADAL or MSAL?
+If you need to support non-Azure AD accounts (ex: personal Microsoft accounts), you will need to use the MSAL.js library and the new v2 Microsoft Identity Platform. This code sample repo authenticates Azure AD users with ADAL.js.
+
 # Azure Prerequisites
 1. You have an Azure subscription.
 2. You have an App Registration that has been created in Azure Active Directory.
