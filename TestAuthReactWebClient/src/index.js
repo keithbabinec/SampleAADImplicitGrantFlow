@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import * as AuthenticationContext from 'adal-vanilla/lib/adal'
 import App from './App';
 
+// Security Warning: Be aware that this JavaScript code sample uses the browser's sessionStorage to store tokens. 
+// This means the token could be extracted if the site is vulnerable to an XSS attack or if 
+// untrusted/malicious scripts are executed in your web app. Keep this in mind when handling tokens.
+
 // store the ADAL config:
 window.adalConfig = {
     clientId: '<FIX: add your application ID from the AAD app registration>',
