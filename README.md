@@ -1,6 +1,9 @@
 # SampleAADImplicitGrantFlow
 A code sample of an ASP.NET Core Web API with a React web client, authenticated with the Azure Active Directory implicit grant flow and RBAC permissions authorization.
 
+# Important Update: September 2020
+The authentication flow described in this repository is no longer recommended. New applications should use the OAuth 2.0 Authorization code flow instead: https://github.com/keithbabinec/SampleMsalAuthorizationCodeFlow
+
 ## Tutorial Post
 You can find a walkthrough tutorial on this authentication flow on my blog at this link: https://keithbabinec.com/2019/09/25/how-to-setup-the-azure-ad-implicit-grant-flow-with-react-asp-net-core-and-rbac-roles/
 
